@@ -19,7 +19,7 @@ export default function SemesterInput({
         htmlFor={`sem-${sem}`}
         className="w-32 text-gray-700 font-medium select-none leading-tight whitespace-pre-line"
       >
-        {`Semester ${sem}\nTotal:`}
+        {`Sem ${sem}\nTotal:`}
       </label>
       <input
         id={`sem-${sem}`}
