@@ -38,6 +38,7 @@ A React + TypeScript application to calculate the aggregate percentage for IOE's
 ## Project Structure
 
 - `/src/components`: Reusable UI components for the application.
+- `/src/lib`: Utility functions such as result message generator.
 - `/src/logic`: Custom hooks and logic for state management and aggregate calculations.
 - `App.tsx`: Main application component that ties everything together.
 
