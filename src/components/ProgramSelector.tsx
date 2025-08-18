@@ -1,6 +1,6 @@
 interface ProgramSelectorProps {
-  program: "BCT" | "BCE";
-  onChange: (program: "BCT" | "BCE") => void;
+  program: "BCT" | "BCE" | "BME";
+  onChange: (program: "BCT" | "BCE" | "BME") => void;
 }
 
 export default function ProgramSelector({ program, onChange }: ProgramSelectorProps) {
@@ -15,11 +15,12 @@ export default function ProgramSelector({ program, onChange }: ProgramSelectorPr
       <select
         id="program-select"
         value={program}
-        onChange={(e) => onChange(e.target.value as "BCT" | "BCE")}
+        onChange={(e) => onChange(e.target.value as "BCT" | "BCE" | "BME")}
         className="rounded-md border border-gray-300 bg-white py-2 px-3 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition"
       >
         <option value="BCT">BCT</option>
         <option value="BCE">BCE</option>
+        <option value="BME">BME</option>
       </select>
     </div>
   );
