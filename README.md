@@ -2,11 +2,11 @@
 
 # IOE Aggregate Percentage Calculator
 
-A React + TypeScript application to calculate the aggregate percentage for IOE's BCT and BCE programs.
+A React + TypeScript application to calculate the aggregate percentage for IOE's BCT, BCE, BME programs. Other faculties coming soon!
 
 ## Features
 
-- **Program Selection**: Choose between BCT or BCE programs.
+- **Program Selection**: Choose between BCT, BCE, or BME programme.
 - **Semester-wise Input**: Enter marks for each semester with real-time percentage updates.
 - **Weighted Aggregate**: Automatically calculates the weighted aggregate percentage.
 - **Division/Pass Status**: Displays pass/fail status and division based on IOE criteria.
